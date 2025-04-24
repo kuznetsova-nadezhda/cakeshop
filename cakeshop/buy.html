@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <div class="logo">
+                <img src="images/logo.png" alt="Cake Shop">
+                
+            </div>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="catalog2.html">Каталог</a>
+                <span>Заказать</span>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <h2 class="section-title">Заявка на заказ</h2>
+
+    <section class="forms">
+
+	<form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="65c7c7b9-9b2c-4850-b234-cc161199507c">
+		<span>Как к Вам обращаться?</span>
+		<input tupe="text" name="name" id="" class="box" required placeholder="Имя" autocomplete="off">
+
+		<span>Email</span>
+		<input tupe="email" name="email" id="" class="box" required placeholder="Email" autocomplete="off">
+
+		<span>Номер телефона</span>
+		<input tupe="number" name="number" id="" class="box" required placeholder="89005172635" autocomplete="off">
+
+		<span>Ваш комментарий</span>
+		<input tupe="text" name="comm" id="" class="box" required placeholder="Напишите о своих пожеланиях к заказу" autocomplete="off">
+		
+
+		<input type="submit" value="Отправить" class="btn" name="send">
+	</form>
+    </section>
+
+
+
+
+    <footer>
+            <p>&copy; Cake Shop 2024</p>
+    </footer>
+</body>
+</html>
